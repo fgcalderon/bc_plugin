@@ -1,0 +1,64 @@
+/**   TABLE
+================================================== */
+table.fgc {
+	border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    table-layout: fixed;
+	width: 100%;
+}
+
+.fgc>tbody>:nth-child(odd) {
+	background: #f9f9f9;
+}
+
+.fgc-button {
+	display: block;
+	background: #0085ba;
+	border-radius: 5px;
+	color: #fff;
+	text-align: center;
+	padding: 5px;
+	margin:2px auto;
+	width: 90px;
+}
+
+/**   UPDATE FORM
+================================================== */
+.fgc-form input {
+	display: block;
+	margin: 0 0 10px 0;
+	width: 250px;
+}
+
+
+.fgc-form input[type = 'checkbox'] {
+	width: auto;
+}
+
+.fgc-form button {
+	background: #0085ba;
+	border:none;
+	color: #fff;
+	cursor: pointer;
+	padding: 10px;
+	text-transform: uppercase;
+	width: auto;
+}
+
+.info-text {
+	color: #999;
+	font-size: 12px;
+	font-style: italic;
+}
+
+.fgc-alert {
+	display: inline-block;
+	color: #000;
+	font-size: 14px;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.fgc-alert.success {
+	background: #66ff99;
+}
